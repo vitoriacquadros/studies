@@ -1,0 +1,48 @@
+Programação 
+
+Python = Linguagem de programação 
+Tipo de tipagem = Dinâmica/forte 
+str -> string -> texto 
+Strings -> são textos que estão dentro de aspas 
+
+# comentário em Python Ctrl + ; -> comando do vscode, comenta e descomenta o código, o interpretador não lê o comentário 
+
+'''
+isso é uma docstring, permite mais de uma linha no Python e é lido pelo interpretador 
+'''
+
+"""
+Função print() -> exibe informações na tela através do seu argumento
+sep = -> separador de argumentos não nomeados 
+""" 
+--- Strings --- 
+
+Aspas simples: 
+
+print('Programar')
+
+Aspas duplas: 
+
+print("Programar")
+
+Escape
+Coloca o texto do parâmetro com aspas duplas 
+print("Programar \"é bom\"")
+
+r
+
+Mostra o caractere de barra
+print(r"Programar \"é bom\"")
+
+------Tipos int e float --------
+
+
+int -> número inteiro 
+O tipo int representa qualquer numero positivo ou negativo
+int sem sinal é considerado positivo 
+
+float -> número com ponto flutuante 
+o tipo float representa qualquer numero positivo ou negativo com ponto flutuante 
+float sem sinal é considerado positivo 
+
+a função type mostra o tipo que o Python inferiu ao valor
