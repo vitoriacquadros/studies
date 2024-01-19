@@ -23,5 +23,3 @@ print(True and False and True)
 print(True and False)
 print(bool(0.0))
 print(bool(''))
-
-print(True and 0 and True)
