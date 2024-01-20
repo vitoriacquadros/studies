@@ -1,0 +1,65 @@
+#Dcoumentação do projeto de estudos do curso de programação em Python
+
+#Aula 01 - 07/06/2021 - Introdução ao Python
+
+Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. 
+
+#Aula 02 - 08/06/2021 - Variáveis e tipos de dados
+
+#Aula 03 - 09/06/2021 - Operadores aritméticos
+
+#Aula 04 - 10/06/2021 - Operadores lógicos e relacionais
+
+#Aula 05 - 11/06/2021 - Estruturas condicionais
+
+#Aula 06 - 14/06/2021 - Estruturas de repetição
+
+#Aula 07 - 15/06/2021 - Listas
+
+#Aula 08 - 16/06/2021 - Tuplas
+
+#Aula 09 - 17/06/2021 - Dicionários
+
+#Aula 10 - 18/06/2021 - Funções
+
+#Aula 11 - 21/06/2021 - Funções com retorno
+
+#Aula 12 - 22/06/2021 - Funções com parâmetros
+
+#Aula 13 - 23/06/2021 - Funções com parâmetros padrão
+
+#Aula 14 - 24/06/2021 - Escopo de variáveis
+
+#Aula 15 - 25/06/2021 - Funções lambda
+
+#Aula 16 - 28/06/2021 - Manipulando strings
+
+#Aula 17 - 29/06/2021 - Módulos
+
+#Aula 18 - 30/06/2021 - Tratamento de erros
+
+#Aula 19 - 01/07/2021 - Leitura e escrita de arquivos
+
+#Aula 20 - 02/07/2021 - Classes
+
+#Aula 21 - 05/07/2021 - Métodos
+
+#Aula 22 - 06/07/2021 - Herança
+
+#Aula 23 - 07/07/2021 - Polimorfismo
+
+#Aula 24 - 08/07/2021 - Encapsulamento
+
+#Aula 25 - 09/07/2021 - Métodos e funções especiais
+
+#Aula 26 - 12/07/2021 - Trabalhando com datas
+
+#Aula 27 - 13/07/2021 - Módulos úteis
+
+#Aula 28 - 14/07/2021 - Expressões regulares
+
+#Aula 29 - 15/07/2021 - Threads
+
+#Aula 30 - 16/07/2021 - Decorators
+
+#Aula 31 - 19/07/2021 - Criando um gerenciador de contexto
