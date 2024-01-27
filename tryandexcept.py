@@ -8,7 +8,9 @@ Se o código não funcionar, o except é executado.
 number_str = input('Digite um número e irei dobrar ')
 
 try:
+    print('STR:', number_str)
     number_float = float(number_str)
+    print('FLOAT:', number_float)
     print(f'o dobro de {number_str} é {number_float * 2:.2f}')
 except:
     print('Erro: não é um número')
