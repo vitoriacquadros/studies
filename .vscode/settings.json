@@ -1,0 +1,24 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 12,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 14,
+    "editor.rulers": [80, 120],
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.executorMap": {
+        "python": "clear ; python -u"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "editor.fontFamily": "Consolas, 'Dark Mono', 'monospace', 'Droid Sans Fallback'",
+    "terminal.integrated.fontFamily": "",
+    "[python]":{
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+    },
+    "cSpell.language": "en,en-US,en-GB",
+    "wolf.disableHotModeWarning": true
+}
