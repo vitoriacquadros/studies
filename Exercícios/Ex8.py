@@ -4,3 +4,4 @@ lista = ['Maria', 'João', 'José', 'Antônio', 'Joana', 'Francisco', 'Ana', 'Lu
 
 for i in range(len(lista)):
     print(i, lista[i], type(lista))
+
