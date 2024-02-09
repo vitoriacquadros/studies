@@ -1,65 +1,163 @@
-###Dcoumentação do projeto de estudos do curso de programação em Python
+# Documentação sobre Python
 
-#Aula 01 - 07/06/2021 - Introdução ao Python
+## Sumário
 
-Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. 
+>[Docs](https://docs.python.org/3/)
+>[Sumário](#sumário)
+>[Anotações Gerais](#anotações-gerais)
+>[Tipos primitivos](#tipos-primitivos)
+>[Operações Arithmeticas](#operações-arithmeticas)
+>[Ordem de Precedência](#ordem-de-precedência)
+>[Bibliotecas](#bibliotecas)
+  >>[Biblioteca Math](#biblioteca-math)
+    >>[Biblioteca Random](#biblioteca-random)
+    >>[Biblioteca Time](#biblioteca-time)
+    >>[Biblioteca Datetime](#biblioteca-datetime)
+    >>[Biblioteca Calendar](#biblioteca-calendar)
+    >>[Biblioteca OS](#biblioteca-os)
+    >>[Biblioteca Sys](#biblioteca-sys)
+    >>[Biblioteca JSON](#biblioteca-json)
+    >>[Biblioteca CSV](#biblioteca-csv)
+    >>[Biblioteca Collections](#biblioteca-collections)
+>[Manipulação de Strings](#manipulação-de-strings)
+>[Estruturas de Controle](#estruturas-de-controle)
+  >>[Estrutura de Controle If](#estrutura-de-controle-if)
+  >>[Estrutura de Controle While](#estrutura-de-controle-while)
+  >>[Estrutura de Controle For](#estrutura-de-controle-for)
+>[Estrutura de Dados](#estrutura-de-dados)
+  >>[Listas](#listas)
+  >>[Tuplas](#tuplas)
+  >>[Dicionários](#dicionários)
+  >>[Conjuntos](#conjuntos)
+>[Funções](#funções)
+>[Escopo de Variáveis](#escopo-de-variáveis)
+>[Tratamento de Erros](#tratamento-de-erros)
+>[Leitura e Escrita de Arquivos](#leitura-e-escrita-de-arquivos)
+>[Manipulação de Arquivos](#manipulação-de-arquivos)
+    >>[Manipulação de Diretórios](#manipulação-de-diretórios)
+    >>[Manipulação de Arquivos JSON](#manipulação-de-arquivos-json)
+    >>[Manipulação de Arquivos CSV](#manipulação-de-arquivos-csv)
+    >>[Manipulação de Arquivos XML](#manipulação-de-arquivos-xml)
+    >>[Manipulação de Arquivos Binários](#manipulação-de-arquivos-binários)
+    >>[Manipulação de Arquivos ZIP](#manipulação-de-arquivos-zip)
+    >>[Manipulação de Arquivos PDF](#manipulação-de-arquivos-pdf)
+    >>[Manipulação de Arquivos Excel](#manipulação-de-arquivos-excel)
+    >>[Manipulação de Arquivos Word](#manipulação-de-arquivos-word)
 
-#Aula 02 - 08/06/2021 - Variáveis e tipos de dados
+## Anotações Gerais
 
-#Aula 03 - 09/06/2021 - Operadores aritméticos
+- Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
+- Foi lançada por Guido van Rossum em 1991.
+- É uma linguagem de propósito geral, que pode ser usada para desenvolver qualquer tipo de aplicação.
+- Suas arquiteturas são CPython, Jython, IronPython, PyPy.
+- Podemos usar Python para desenvolver aplicações web, desktop, mobile, jogos, inteligência artificial, análise de dados, automação de tarefas e muito mais.
 
-#Aula 04 - 10/06/2021 - Operadores lógicos e relacionais
+## Tipos Primitivos
 
-#Aula 05 - 11/06/2021 - Estruturas condicionais
+- int: Números inteiros (positivos, negativos e zero)
+- float: Números decimais (ponto flutuante)
+- bool: Valores lógicos (True ou False)
+- str: Textos (cadeia de caracteres)
 
-#Aula 06 - 14/06/2021 - Estruturas de repetição
+## Operações Arithmeticas
 
-#Aula 07 - 15/06/2021 - Listas
+- Adição: +
+- Subtração: -
+- Multiplicação: *
+- Divisão: /
+- Divisão Inteira: //
+- Exponenciação: **
+- Resto da Divisão: %
 
-#Aula 08 - 16/06/2021 - Tuplas
+## Ordem de Precedência
 
-#Aula 09 - 17/06/2021 - Dicionários
+1. ()
+2. **
+3. *, /, //, %
+4. +, -
 
-#Aula 10 - 18/06/2021 - Funções
+## Anotações sobre print()
 
-#Aula 11 - 21/06/2021 - Funções com retorno
+- Podemos usar aspas simples ou duplas para delimitar uma string. <br />
+- Podemos usar o caractere de escape \n para quebrar uma linha. <br />
+- Podemos usar o caractere de escape \t para dar um tab. <br />
+- Podemos usar o caractere de escape \\ para imprimir uma barra invertida. <br />
+- Podemos usar o caractere de escape \" para imprimir aspas duplas. <br />
+- Podemos usar o caractere de escape \' para imprimir aspas simples. <br />
+- Podemos usar o caractere de escape \u para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \U para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \N para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \x para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \b para imprimir um backspace. <br />
+- Podemos usar o caractere de escape \r para imprimir um carriage return. <br />
+- Podemos usar o caractere de escape \f para imprimir um form feed. <br />
+- Podemos usar o caractere de escape \a para imprimir um bell. <br />
+- Podemos usar o caractere de escape \v para imprimir um vertical tab. <br />
+- Podemos usar o caractere de escape \0 para imprimir um null. <br />
+- Podemos usar o caractere de escape \ooo para imprimir um caractere octal. <br />
+- Podemos usar o caractere de escape \xhh para imprimir um caractere hexadecimal. <br />
+- Podemos usar o caractere de escape \N{name} para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \uxxxx para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \Uxxxxxxxx para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \N{caractere} para imprimir um caractere unicode. <br />
+- Podemos usar o caractere de escape \N{caractere} para imprimir um caractere unicode. <br />
+- Podemos usar 3 aspas duplas para imprimir um texto com múltiplas linhas. <br />
+- f string - ```f'teste: {variavel}'```
 
-#Aula 12 - 22/06/2021 - Funções com parâmetros
+## Bibliotecas 
 
-#Aula 13 - 23/06/2021 - Funções com parâmetros padrão
+### Biblioteca Math
 
-#Aula 14 - 24/06/2021 - Escopo de variáveis
+### Biblioteca Random
 
-#Aula 15 - 25/06/2021 - Funções lambda
+### Biblioteca Time
 
-#Aula 16 - 28/06/2021 - Manipulando strings
+### Biblioteca Datetime
 
-#Aula 17 - 29/06/2021 - Módulos
+### Biblioteca Calendar
 
-#Aula 18 - 30/06/2021 - Tratamento de erros
+### Biblioteca OS
 
-#Aula 19 - 01/07/2021 - Leitura e escrita de arquivos
+### Biblioteca Sys
 
-#Aula 20 - 02/07/2021 - Classes
+### Biblioteca JSON
 
-#Aula 21 - 05/07/2021 - Métodos
+### Biblioteca CSV
 
-#Aula 22 - 06/07/2021 - Herança
+### Biblioteca Collections
 
-#Aula 23 - 07/07/2021 - Polimorfismo
+## Manipulação de Strings
 
-#Aula 24 - 08/07/2021 - Encapsulamento
-
-#Aula 25 - 09/07/2021 - Métodos e funções especiais
-
-#Aula 26 - 12/07/2021 - Trabalhando com datas
-
-#Aula 27 - 13/07/2021 - Módulos úteis
-
-#Aula 28 - 14/07/2021 - Expressões regulares
-
-#Aula 29 - 15/07/2021 - Threads
-
-#Aula 30 - 16/07/2021 - Decorators
-
-#Aula 31 - 19/07/2021 - Criando um gerenciador de contexto
+- Podemos usar o método os seguintes métodos: 
+    len() para saber o tamanho de uma string. <br />
+    count() para contar quantas vezes um caractere aparece em uma string. <br />
+    find() para encontrar a posição de um caractere em uma string. <br />
+    replace() para substituir um caractere por outro em uma string. <br />
+    upper() para transformar uma string em maiúscula. <br />
+    lower() para transformar uma string em minúscula. <br />
+    capitalize() para transformar a primeira letra de uma string em maiúscula. <br />
+    title() para transformar a primeira letra de cada palavra em maiúscula. <br />
+    strip() para remover espaços em branco no início e no final de uma string. <br />
+    rstrip() para remover espaços em branco no final de uma string. <br />
+    lstrip() para remover espaços em branco no início de uma string. <br />
+    split() para dividir uma string em uma lista. <br />
+    join() para juntar uma lista em uma string. <br />
+    isnumeric() para verificar se uma string é numérica. <br />
+    isalpha() para verificar se uma string é alfabética. <br />
+    isalnum() para verificar se uma string é alfanumérica. <br />
+    isupper() para verificar se uma string está em maiúscula. <br />
+    islower() para verificar se uma string está em minúscula. <br />
+    istitle() para verificar se uma string está em formato de título. <br />
+    isspace() para verificar se uma string é composta apenas por espaços em branco. <br />
+    startswith() para verificar se uma string começa com um determinado caractere. <br />
+    endswith() para verificar se uma string termina com um determinado caractere. <br />
+    zfill() para preencher uma string com zeros. <br />
+    format() para formatar uma string. <br />
+    encode() para codificar uma string. <br />
+    decode() para decodificar uma string. <br />
+    rjust() para justificar uma string à direita. <br />
+    ljust() para justificar uma string à esquerda. <br />
+    center() para centralizar uma string. <br />
+    expandtabs() para expandir tabulações em uma string. <br />
+    partition() para dividir uma string em três partes. <br />
+    rpartition() para dividir uma string em três partes, começando pelo final. <br />
