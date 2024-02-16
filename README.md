@@ -9,16 +9,7 @@
 >[Operações Arithmeticas](#operações-arithmeticas)  <br/>
 >[Ordem de Precedência](#ordem-de-precedência)  <br/>
 >[Bibliotecas](#bibliotecas)  <br/>
-    >>[Biblioteca Math](#biblioteca-math)  <br/>
-    >>[Biblioteca Random](#biblioteca-random)  <br/>
-    >>[Biblioteca Time](#biblioteca-time)  <br/>
-    >>[Biblioteca Datetime](#biblioteca-datetime)  <br/>
-    >>[Biblioteca Calendar](#biblioteca-calendar)  <br/>
-    >>[Biblioteca OS](#biblioteca-os)  <br/>
-    >>[Biblioteca Sys](#biblioteca-sys)  <br/>
-    >>[Biblioteca JSON](#biblioteca-json)  <br/>
-    >>[Biblioteca CSV](#biblioteca-csv)  <br/>
-    >>[Biblioteca Collections](#biblioteca-collections)  <br/>
+   ...
 >[Manipulação de Strings](#manipulação-de-strings)  <br/>
 
 ## Anotações Gerais
@@ -54,7 +45,7 @@
 4. +, -
 
 ## Anotações sobre print()
-* Podemos usar os seguintes métodos para formatar o print: <br /> 
+* Podemos utilizar os seguintes métodos para formatar a função print: <br /> 
 -  ```aspas simples``` ou ```duplas``` para delimitar uma string. <br />
 -  ```\n``` para quebrar uma linha. <br />
 - ```\t``` para dar um tab. <br />
@@ -103,7 +94,7 @@
 
 ## Manipulação de Strings
 
-- Podemos usar o método os seguintes métodos:  <br/>
+- Podemos utilizar os seguintes métodos:  <br/>
     ```len()``` para saber o tamanho de uma string. <br />
     ```count()``` para contar quantas vezes um caractere aparece em uma string. <br />
     ```find()``` para encontrar a posição de um caractere em uma string. <br />
