@@ -9,7 +9,7 @@
 >[Operações Arithmeticas](#operações-arithmeticas)  <br/>
 >[Ordem de Precedência](#ordem-de-precedência)  <br/>
 >[Bibliotecas](#bibliotecas)  <br/>
-   ...
+   ... <br/>
 >[Manipulação de Strings](#manipulação-de-strings)  <br/>
 
 ## Anotações Gerais
@@ -69,28 +69,6 @@
 -  ```\Uxxxxxxxx``` para imprimir um caractere unicode. <br />
 - ```3 aspas duplas``` para imprimir um texto com múltiplas linhas. <br />
 - f string - ```f'teste: {variavel}'```
-
-## Bibliotecas 
-
-## Biblioteca Math
-
-## Biblioteca Random
-
-## Biblioteca Time
-
-## Biblioteca Datetime
-
-## Biblioteca Calendar
-
-## Biblioteca OS
-
-## Biblioteca Sys
-
-## Biblioteca JSON
-
-## Biblioteca CSV
-
-## Biblioteca Collections
 
 ## Manipulação de Strings
 
