@@ -1,5 +1,3 @@
-# Desempacotamento em chamdas de métodos e funções
-
 string = 'Python'
 
 lista = ['Yara', 'Python', 'Java']  
